@@ -2,21 +2,26 @@
 
 
 ### CREATE VIRTUAL ENV IN ROOT FOLDER
+```
 virtualenv env
+```
 
 ### LOAD ACTIVATE VIRTUAL ENV
-
+```
 source env/bin/activate
+```
 
 ### LOAD DEPENDENCY LIB
-
+```
 python -m pip install -r requirements.txt
+```
 
 ### EXECUTE EXAMPLE LIB
+```
 python crypto_aes.py
+```
 
 ### RESULT
-
 ```
 test_one
 key : De934oi3mdsacVdkso247551fdad23f6c2vsdkeFXzx
